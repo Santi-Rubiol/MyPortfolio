@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 .principalPage{
     height: 900px;
     background-color: rgb(47, 47, 47);
+}
+
+h2{
+    color: rgb(188, 123, 123);
 }
 
 .headerPrincipalData{
@@ -15,8 +20,11 @@
     align-items: start;
 }
 
-.headerContactData{
+.footerContactData{
     color: white;
+    >h3{
+        font-size: 32px;
+    }
 }
 
 .myName{
@@ -38,3 +46,6 @@
     max-width: 50rem;
     justify-content: center;
 }
+
+/* .footer{
+} */

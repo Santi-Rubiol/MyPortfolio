@@ -1,4 +1,7 @@
 {
+    "myName": "SANTIAGO RUBIOL",
+    "myTitle": "FULL STACK DEVELOPER (STACK MERN)",
+    "aboutMe": "",
     "skills": [
         {
             "name": "Javascript",
@@ -10,7 +13,7 @@
         },
         {
             "name": "CSS",
-            "image": "./src/assets/whatsapp-logo.svg"
+            "image": "./src/assets/cssLogo.png"
         }
     ],
     "contacts": [
