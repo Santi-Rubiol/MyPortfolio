@@ -1,17 +1,17 @@
 :root {
-    --white: #fff;
     --offset: 1rem;
 }
 
 .skillCard {
     position: relative;
     overflow: hidden;
-    max-width: 18rem;
+    max-width: 9rem;
     width: 100%;
     color: #fff;
     background: #000;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .skillCard img {
