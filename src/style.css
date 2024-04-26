@@ -6,22 +6,31 @@
 }
 
 .principalPage{
-    height: 900px;
+    height: 100%;
     background-color: rgb(47, 47, 47);
+    padding-top: 1rem;
+    padding-bottom: 15px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 h2{
     color: rgb(188, 123, 123);
 }
 
-.headerPrincipalData{
-    display: grid;
-    justify-content: center;
-    align-items: start;
+ul{
+    padding: 0;
 }
+
+li{
+    list-style-type: none;
+}
+
 
 .footerContactData{
     color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
     >h3{
         font-size: 32px;
     }
@@ -38,11 +47,13 @@ h2{
     color: rgb(152, 152, 152);
 }
 
+
+
 .skillsContent{
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
     max-width: 50rem;
     justify-content: center;
 }

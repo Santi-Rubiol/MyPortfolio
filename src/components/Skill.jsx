@@ -11,9 +11,6 @@ const Skill = ({ name, image }) => {
             <img src={image} alt={name} />
             <figcaption>
                 <h3>{name}</h3>
-                {/* <p>
-                258 Serenity Lane, Crestwood Hills
-            </p> */}
             </figcaption>
         </figure>
     </ul>
