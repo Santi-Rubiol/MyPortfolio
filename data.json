@@ -1,0 +1,21 @@
+{
+    "skills": [
+        {
+            "name": "Javascript",
+            "image": "./src/assets/javascriptLogo.png"
+        },
+        {
+            "name": "Python",
+            "image": "./src/assets/pythonLogo.png"
+        },
+        {
+            "name": "CSS",
+            "image": "./src/assets/whatsapp-logo.svg"
+        }
+    ],
+    "contacts": [
+        {
+            
+        }
+    ]
+}
