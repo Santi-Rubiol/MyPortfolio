@@ -2,6 +2,32 @@
     "myName": "SANTIAGO RUBIOL",
     "myTitle": "FULL STACK DEVELOPER (STACK MERN)",
     "aboutMe": "",
+    "laboralExperience": [
+        {
+            "title":"EMPRESA DE TRANSPORTE", 
+            "rol": "Desarrollador y gerente administrativo", 
+            "time": "Jul 2018 - Actualidad", 
+            "text": "Desarrollé un sistema informático completo para la administración de una flota de taxis y control de repuestos en stock utilizando Java, con una base de datos MySQL. Cuenta a demás con un apartado de gestión de choferes, de gestión de vehículos y la posibilidad de visualizar los datos por mes, por día o por vehículo. Administré este sistema mientras lo perfeccionaba, controlaba cobros, actualizaba stock, etc. En 2023 capacité a dos personas en el uso del sistema."
+        },
+        {
+            "title":"KMON", 
+            "rol": "Gestión de flotas de vehículos", 
+            "time": "Ene 2022 - May 2022", 
+            "text": "Me dediqué exclusivamente a la administración de cuatro vehículos de transporte de pasajeros. En el tiempo que estuve diseñé un excel para controlar el número de kilómetros de los autos, el correcto pago a los conductores. A demás, me desenvolví atendiendo a los choferes ante los inconvenientes que sepresentaban para poder encontrar una solución."
+        },
+        {
+            "title":"LO DE CE", 
+            "rol": "Desarrollo de un sistema web", 
+            "time": "Sep 2023 - Feb 2024", 
+            "text": "Desarrollé un sistema de control de stock para una empresa de venta de ropa. A través de su uso, los trabajadores pueden ver diferentes prendas en inventario, cantidades, varias tallas y precios. No solo eso,también pueden verificar la lista de ventas actualizada, que incluye todo el proceso y la asociación de datos. Adicionalmente, se incorporó un módulo de cliente, que permite registrar su información personal, historial de compras y deudas acumuladas. Otra funcionalidad requerida fue la integración de un módulo de proveedor con su información de contacto, datos bancarios y otras utilidades. Usé React, node, mysql y lo implementé en Vercel"
+        },
+        {
+            "title":"MI ODONTO", 
+            "rol": "Desarrollo de un sistema web", 
+            "time": "Jul 2018 - Actualidad", 
+            "text": "Desarrollé un sistema de registro de pacientes para un dentista, cubriendo así una necesidad crítica de organización de la información y registro de los diferentes turnos y servicios que se prestan. El módulo de pacientes incluye toda la información inherente a ellos, destacando la selección y depuración por parte de la obra social. A través de esta innovadora solución, la profesional pudo visualizar en todo momento el estado de los turnos programados, junto con la información del turno y el paciente asociado."
+        }
+    ],
     "skills": [
         {
             "name": "Javascript",
