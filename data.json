@@ -31,15 +31,39 @@
     "skills": [
         {
             "name": "Javascript",
-            "image": "./src/assets/javascriptLogo.png"
+            "image": "./src/assets/skills/javascriptLogo.png"
         },
         {
-            "name": "Python",
-            "image": "./src/assets/pythonLogo.png"
+            "name": "HTML",
+            "image": "./src/assets/skills/htmlLogo.png"
         },
         {
             "name": "CSS",
-            "image": "./src/assets/cssLogo.png"
+            "image": "./src/assets/skills/cssLogo.png"
+        },
+        {
+            "name": "Python",
+            "image": "./src/assets/skills/pythonLogo.png"
+        },
+        {
+            "name": "JAVA",
+            "image": "./src/assets/skills/javaLogo.png"
+        },
+        {
+            "name": "C++",
+            "image": "./src/assets/skills/c++Logo.png"
+        },
+        {
+            "name": "C#",
+            "image": "./src/assets/skills/cSharpLogo.png"
+        },
+        {
+            "name": "Kotlin",
+            "image": "./src/assets/skills/kotlinLogo.png"
+        },
+        {
+            "name": "PHP",
+            "image": "./src/assets/skills/phpLogo.png"
         }
     ],
     "contacts": [
