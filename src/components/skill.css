@@ -80,6 +80,7 @@
 }
 
 .skillCard h3 {
+    color: var(--color3);
     font-size: 1.5rem;
     font-weight: bold;
     opacity: 0;
