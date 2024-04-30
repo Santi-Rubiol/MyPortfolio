@@ -14,7 +14,7 @@ const Footer = () => {
     return <footer className="footer">
         <div id="contactSection" className="footerContactData">
             {/* <p>Tafí Viejo, Tucumán, Argentina</p> */}
-            <h3>¡Contáctame!</h3>
+            <h2>¡Contáctame!</h2>
             { }
             <Contact
                 text={"+54 3816 204123"}
