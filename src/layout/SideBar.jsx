@@ -13,13 +13,16 @@ const sections = [
 ]
 
 const SideBar = () => {
-    return <li>{sections.map((section, index) => (
-        <ul key={index}
-            onClick={() => scrollToSection(section.id)}>
-            <p>{section.name}</p>
-        </ul>
-    ))}
-    </li>
+    return <div className="sidebar">
+        <li>
+            {sections.map((section, index) => (
+                <ul key={index}
+                    onClick={() => scrollToSection(section.id)}>
+                    <p>{section.name}</p>
+                </ul>
+            ))}
+        </li>
+    </div>
 }
 
 export default SideBar
