@@ -1,7 +1,9 @@
 import './skill.css'
 
 const Skill = ({ name, image }) => {
-
+    if (!image) {
+        image = null
+    }
     return <ul>
         <figure className="skillCard">
             <div className="corner left-top"></div>
