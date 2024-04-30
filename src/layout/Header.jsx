@@ -50,7 +50,7 @@ const Header = () => {
             }
             // Actualizar la letra resaltada
             setHighlightedLetter(index)
-        }, 250) // Intervalo de 1 segundo
+        }, 200) // Intervalo de 1 segundo
 
         // Limpiar el intervalo cuando el componente se desmonta
         return () => clearInterval(interval)

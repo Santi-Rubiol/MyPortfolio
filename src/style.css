@@ -76,8 +76,9 @@ li{
 }
 
 .myName-color{
+    cursor: default;
     color: var(--titles);
-    /* transition: all 0.5s; */
+    transition: all 0.3s;
 
     /*PROBAR QUE SE CAMBIE SOLO*/
 }
