@@ -11,7 +11,7 @@
     --gray: #384358;
     --beige: #FFA856;
     --red: #B5182B;
-    --dark-red: #54192D;
+    --dark-red: #a91345;
 
 }
 
@@ -23,7 +23,12 @@
 }
 
 .column{
-    padding: 0;
+    padding-right: 0;
+}
+
+.container-fluid .row{
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .principalPage{
@@ -35,6 +40,10 @@
     padding-left: 1.5rem;
     padding-right: 1.8rem;
     /* margin: 0; */
+}
+
+p{
+    font-size: 18px;
 }
 
 h2{
@@ -63,11 +72,42 @@ li{
     justify-content: start;
 }
 
+.btn-fixed {
+    background-color: var(--gray);
+    border-radius: 100%;
+    padding: 8px;
+
+    position: fixed;
+    bottom: 20px; /* Espacio desde la parte inferior de la pantalla */
+    right: 20px; /* Espacio desde el borde derecho de la pantalla */
+    opacity: 0.5; /* Opacidad inicial */
+    transition: opacity 0.3s ease; /* Transición suave */
+}
+
+.btn-fixed:hover {
+    opacity: 1; /* Opacidad al pasar el mouse */
+  }
+
 /*HEADER*/
 .header{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     background-color: var(--medium-blue);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.photoContent{
+    height: fit-content;
+    width: fit-content;
+    /* max-width: 8rem; */
+    
+    >img{
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+    }
 }
 
 .contentName{
@@ -76,22 +116,36 @@ li{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-}
 
-.myName{
     cursor: default;
+    animation: paintRedWhite 2s infinite;
 }
 
-.myName-color{
+@keyframes paintRedWhite {
+    0% {
+      color: white; /* Inicia blanco */
+    }
+    50% {
+      color: #B5182B; /* Se pinta de rojo a mitad del ciclo */
+    }
+    100% {
+      color: white; /* Vuelve a blanco al final del ciclo */
+    }
+  }
+
+/* .myName{
+    cursor: default;
+} */
+
+/* .myName-color{
     cursor: default;
     color: var(--titles);
     transition: all 0.3s;
 
-    /*PROBAR QUE SE CAMBIE SOLO*/
-}
-.firstLetter{
+} */
+/* .firstLetter{
     margin-left: 15px;
-}
+} */
 
 .myTitle{
     font-size: 30px;
