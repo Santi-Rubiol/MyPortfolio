@@ -13,7 +13,6 @@ const Footer = () => {
 
     return <footer className="footer">
         <div id="contactSection" className="footerContactData">
-            {/* <p>Tafí Viejo, Tucumán, Argentina</p> */}
             <h2>¡Contáctame!</h2>
             { }
             <Contact
@@ -29,13 +28,13 @@ const Footer = () => {
                 logoName={"Mail"}
             />
             <Contact
-                text={"Linkedin"}
+                text={""}
                 link={"https://www.linkedin.com/in/santiago-rubiol/"}
                 logo={linkedinLogo}
                 logoName={"Linkedin"}
             />
             <Contact
-                text={"GitHub"}
+                text={""}
                 link={"https://github.com/Santi-Rubiol"}
                 logo={gitHubLogo}
                 logoName={"GitHub"}
