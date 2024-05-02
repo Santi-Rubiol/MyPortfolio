@@ -1,6 +1,7 @@
 import Experience from "../components/Experience"
 import Skill from "../components/Skill"
 import data from '../../data.json'
+import { scrollToSection } from './SideBar'
 
 
 const Content = () => {
@@ -35,6 +36,9 @@ const Content = () => {
                 ))}
             </li>
         </div>
+
+        <button className="btn-fixed" onClick={() => scrollToSection('headerSection')}>Inicio</button>
+
 
     </main>
 }
