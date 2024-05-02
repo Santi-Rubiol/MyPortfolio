@@ -1,4 +1,4 @@
-function scrollToSection(sectionId) {
+export function scrollToSection(sectionId) {
     let section = document.getElementById(sectionId)
     if (section) {
         section.scrollIntoView({ behavior: "smooth" })
