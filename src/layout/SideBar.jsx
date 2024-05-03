@@ -9,6 +9,7 @@ const sections = [
     { 'id': "aboutMeSection", "name": "Sobre Mí" },
     { 'id': "laboralExperienceSection", "name": "Experiencia Laboral" },
     { 'id': "skillsSection", "name": "SKILLS" },
+    { 'id': "educationSection", "name": "Educación" },
     { 'id': "contactSection", "name": "¡Contáctame!" }
 ]
 

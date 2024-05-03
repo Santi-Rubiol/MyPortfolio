@@ -1,0 +1,15 @@
+.educationUl{
+    >h4{
+        color: var(--color4);
+    }
+}
+
+.educationHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    >h3{
+        padding-right: 10px;
+        color: var(--color3);
+    }
+}
