@@ -1,22 +1,21 @@
+import Paragraph from "../components/Paragraph"
 import Experience from "../components/Experience"
 import Skill from "../components/Skill"
+import Education from "../components/Education"
 import data from '../../data.json'
 import { scrollToSection } from './SideBar'
 
 
 const Content = () => {
-    const skills = data.skills
+    const aboutMe = data.aboutMe
     const laboralExperience = data.laboralExperience
+    const skills = data.skills
+    const education = data.education
 
     return <main className="main">
         <div id="aboutMeSection" className="aboutMe">
             <h2>Sobre Mí</h2>
-            <p>
-                Egresado de la <b>Universidad Tecnológica Nacional</b>, busco nuevos retos constantemente, me encanta ponerme a prueba y aprender cosas nuevas, soy una persona muy curiosa. Me apasionan las matemáticas.
-                <br />
-                Cuento con sólidos conocimientos en la comprensión de algoritmos
-                complejos y versatilidad y lógica para resolver diversos problemas, respaldados por años de experiencia en programación. Soy una persona dispuesta y capaz de realizar cualquier tarea.
-            </p>
+            <Paragraph text={aboutMe} />
         </div>
 
         <div id="laboralExperienceSection">
@@ -37,9 +36,16 @@ const Content = () => {
             </li>
         </div>
 
+        <div id="educationSection">
+            <h2>Educación</h2>
+            <li className="educationContent">
+                {education.map((edu, index) => (
+                    <Education key={index} place={edu.place} title={edu.title} time={edu.time} text={""} />
+                ))}
+            </li>
+        </div>
+
         <button className="btn-fixed" onClick={() => scrollToSection('headerSection')}>Inicio</button>
-
-
     </main>
 }
 

@@ -1,7 +1,7 @@
 {
     "myName": "SANTIAGO RUBIOL",
     "myTitle": "FULL STACK DEVELOPER (STACK MERN)",
-    "aboutMe": "",
+    "aboutMe": "Egresado de la {/bUniversidad Tecnológica Nacional}, busco nuevos retos constantemente, me encanta ponerme a prueba y aprender cosas nuevas, soy una persona muy curiosa. Me apasionan las matemáticas. {/n} Cuento con sólidos conocimientos en la comprensión de algoritmos complejos y versatilidad y lógica para resolver diversos problemas, respaldados por años de experiencia en programación. Soy una persona dispuesta y capaz de realizar cualquier tarea.",
     "laboralExperience": [
         {
             "title":"EMPRESA DE TRANSPORTE", 
@@ -69,6 +69,18 @@
     "contacts": [
         {
             
+        }
+    ],
+    "education": [
+        {
+            "place": "Universidad Tecnológica Nacional",
+            "title": "Ingeniería en Sistemas de información",
+            "time": "2019 - Actualidad"
+        },
+        {
+            "place": "Universidad Tecnológica Nacional",
+            "title": "Tecnicatura Universitaria en programación",
+            "time": "2022 - 2023 (Proyecto final a presentar)"
         }
     ]
 }
