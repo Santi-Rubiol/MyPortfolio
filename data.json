@@ -31,7 +31,7 @@
     "skills": [
         {
             "name": "Javascript",
-            "image": "./src/assets/skills/javascriptLogo.png"
+            "image": "https://my-portfolio-ten-tau-51.vercel.app//assets/skills/javascriptLogo.png"
         },
         {
             "name": "HTML",
