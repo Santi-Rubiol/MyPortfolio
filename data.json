@@ -31,39 +31,39 @@
     "skills": [
         {
             "name": "Javascript",
-            "image": "https://my-portfolio-ten-tau-51.vercel.app//assets/skills/javascriptLogo.png"
+            "image": "/skills/javascriptLogo.png"
         },
         {
             "name": "HTML",
-            "image": "./src/assets/skills/htmlLogo.png"
+            "image": "/skills/htmlLogo.png"
         },
         {
             "name": "CSS",
-            "image": "./src/assets/skills/cssLogo.png"
+            "image": "/skills/cssLogo.png"
         },
         {
             "name": "Python",
-            "image": "./src/assets/skills/pythonLogo.png"
+            "image": "/skills/pythonLogo.png"
         },
         {
             "name": "JAVA",
-            "image": "./src/assets/skills/javaLogo.png"
+            "image": "/skills/javaLogo.png"
         },
         {
             "name": "C++",
-            "image": "./src/assets/skills/c++Logo.png"
+            "image": "/skills/c++Logo.png"
         },
         {
             "name": "C#",
-            "image": "./src/assets/skills/cSharpLogo.png"
+            "image": "/skills/cSharpLogo.png"
         },
         {
             "name": "Kotlin",
-            "image": "./src/assets/skills/kotlinLogo.png"
+            "image": "/skills/kotlinLogo.png"
         },
         {
             "name": "PHP",
-            "image": "./src/assets/skills/phpLogo.png"
+            "image": "/skills/phpLogo.png"
         }
     ],
     "contacts": [
