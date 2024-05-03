@@ -1,11 +1,9 @@
 import './skill.css'
-import '../../public/skills/javascriptLogo.png'
 
 const Skill = ({ name, image }) => {
     if (!image) {
         image = null
     }
-    const routeToImg = `.src/assets/skills/javascriptLogo.png`
 
     return <ul>
         <figure className="skillCard">
