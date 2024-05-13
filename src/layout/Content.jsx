@@ -2,6 +2,8 @@ import Paragraph from "../components/Paragraph"
 import Experience from "../components/Experience"
 import Skill from "../components/Skill"
 import Education from "../components/Education"
+import Carrousel from "../components/Carrousel"
+import Proyect from "../components/Proyects"
 import data from '../../data.json'
 import { scrollToSection } from './SideBar'
 
@@ -11,6 +13,7 @@ const Content = () => {
     const laboralExperience = data.laboralExperience
     const skills = data.skills
     const education = data.education
+    const proyects = data.proyects
 
     return <main className="main">
         <div id="aboutMeSection" className="aboutMe">
@@ -24,6 +27,22 @@ const Content = () => {
                 {laboralExperience.map((experience, index) => (
                     <Experience key={index} title={experience.title} rol={experience.rol} time={experience.time} text={experience.text} />
                 ))}
+            </li>
+        </div>
+
+        {/* <div>
+            <h4>AUXILIAR</h4>
+            <Carrousel />
+        </div> */}
+
+        <div id="proyectsSection">
+            <h2>Mis Proyectos</h2>
+            <li className="proyectsContent">
+                {
+                    proyects.map((proyect, index) => (
+                        <Proyect key={index} title={proyect.title} description={proyect.description} url={proyect.url} image={proyect.image} />
+                    ))
+                }
             </li>
         </div>
 

@@ -17,10 +17,10 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-2 col-md-3 col-sm-4 col-12 sideBar">
+        <div className="col-lg-2 col-md-3 col-sm-4 col-12 sideBar column">
           <SideBar />
         </div>
-        <div className="col-lg-10 col-md-9 col-sm-8 col-12 principalContent column">
+        <div /* style={{ backgroundImage: 'url(/backgroundContent.jpg)' }} */ className="col-lg-10 col-md-9 col-sm-8 col-12 principalContent column">
           <Content />
         </div>
       </div>

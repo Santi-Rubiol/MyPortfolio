@@ -8,6 +8,7 @@ export function scrollToSection(sectionId) {
 const sections = [
     { 'id': "aboutMeSection", "name": "Sobre Mí" },
     { 'id': "laboralExperienceSection", "name": "Experiencia Laboral" },
+    { 'id': "proyectsSection", "name": "Mis Proyectos" },
     { 'id': "skillsSection", "name": "SKILLS" },
     { 'id': "educationSection", "name": "Educación" },
     { 'id': "contactSection", "name": "¡Contáctame!" }
