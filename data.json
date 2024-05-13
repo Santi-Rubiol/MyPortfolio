@@ -64,6 +64,18 @@
         {
             "name": "PHP",
             "image": "/skills/phpLogo.png"
+        },
+        {
+            "name": "Bootstrap",
+            "image": "/skills/bootstrapLogo.png"
+        },
+        {
+            "name": "React",
+            "image": "/skills/reactLogo.png"
+        },
+        {
+            "name": "MySQL",
+            "image": "/skills/mysqlLogo.png"
         }
     ],
     "contacts": [
@@ -81,6 +93,14 @@
             "place": "Universidad Tecnológica Nacional",
             "title": "Tecnicatura Universitaria en programación",
             "time": "2022 - 2023 (Proyecto final a presentar)"
+        }
+    ],
+    "proyects": [
+        {
+            "title":"Casino Roulette",
+            "description": "Un pequeño juego hecho en React, donde simulamos una ruleta de casino perfectamente funcional. Utilicé Bootstrap para el layout.",
+            "url" : "https://casino--roulette.vercel.app/",
+            "image": "/proyects/casino.png"
         }
     ]
 }
