@@ -2,6 +2,15 @@
     "myName": "SANTIAGO RUBIOL",
     "myTitle": "FULL STACK DEVELOPER (STACK MERN)",
     "spanish": {
+        "titles":
+            {
+                "aboutMe": "Sobre mi",
+                "laboralExperience": "Experiencia Laboral",
+                "proyects": "Mis Proyectos",
+                "skills": "Mis Skills",
+                "education": "Educación",
+                "contact": "¡Contáctame!"
+            },
         "aboutMe": "Egresado de la {/bUniversidad Tecnológica Nacional}, busco nuevos retos constantemente, me encanta ponerme a prueba y aprender cosas nuevas, soy una persona muy curiosa. Me apasionan las matemáticas. {/n} Cuento con sólidos conocimientos en la comprensión de algoritmos complejos y versatilidad y lógica para resolver diversos problemas, respaldados por años de experiencia en programación. Soy una persona dispuesta y capaz de realizar cualquier tarea.",
         "laboralExperience": [
             {
@@ -39,6 +48,15 @@
         ]
     },
     "english":{
+        "titles": 
+            {
+                "aboutMe": "About me",
+                "laboralExperience": "Laboral Experience",
+                "proyects": "My Proyects",
+                "skills": "My Skills",
+                "education": "Education",
+                "contact": "Contact Me!"
+            },
         "aboutMe": "Graduated from the {/bNational Technological University}, I am constantly looking for new challenges, I love to test myself and learn new things, I am a very curious person. I am passionate about mathematics. {/n} I have solid knowledge in understanding complex algorithms and versatility and logic to solve various problems, backed by years of programming experience. I am a person willing and able to carry out any task.",
         "laboralExperience": [
             {
