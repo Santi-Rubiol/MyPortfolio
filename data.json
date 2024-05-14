@@ -25,14 +25,55 @@
             {
                 "title":"MI ODONTO", 
                 "rol": "Desarrollo de un sistema web", 
-                "time": "Oct 2023 - Actualidad", 
+                "time": "Oct 2023 - May 2024", 
                 "text": "Desarrollé un sistema de registro de pacientes para un dentista, cubriendo así una necesidad crítica de organización de la información y registro de los diferentes turnos y servicios que se prestan. El módulo de pacientes incluye toda la información inherente a ellos, destacando la selección y depuración por parte de la obra social. A través de esta innovadora solución, la profesional pudo visualizar en todo momento el estado de los turnos programados, junto con la información del turno y el paciente asociado."
             }
+        ],
+        "proyects": [
+            {
+                "title":"Casino Roulette",
+                "description": "Un pequeño juego hecho en React, donde simulamos una ruleta de casino perfectamente funcional. Utilicé Bootstrap para el layout.",
+                "url" : "https://casino--roulette.vercel.app/",
+                "image": "/proyects/casino.png"
+            }
         ]
-
     },
     "english":{
-        "aboutMe": "Graduated from the {/bNational Technological University}, I am constantly looking for new challenges, I love to test myself and learn new things, I am a very curious person. I am passionate about mathematics. {/n} I have solid knowledge in understanding complex algorithms and versatility and logic to solve various problems, backed by years of programming experience. I am a person willing and able to carry out any task."
+        "aboutMe": "Graduated from the {/bNational Technological University}, I am constantly looking for new challenges, I love to test myself and learn new things, I am a very curious person. I am passionate about mathematics. {/n} I have solid knowledge in understanding complex algorithms and versatility and logic to solve various problems, backed by years of programming experience. I am a person willing and able to carry out any task.",
+        "laboralExperience": [
+            {
+                "title":"TRANSPORT COMPANY", 
+                "rol": "Developer and administrative manager", 
+                "time": "Jul 2018 - Present", 
+                "text": "I developed a complete computer system for the administration of a fleet of taxis and control of spare parts in stock using Java, with a MySQL database. It also has a section for driver management, vehicle management and the possibility of viewing data by month, day or vehicle. I managed this system while perfecting it, controlling collections, updating stock, etc. In 2023 I trained two people in the use of the system."
+            },
+            {
+                "title":"KMON", 
+                "rol": "Vehicle fleet management", 
+                "time": "Jan 2022 - May 2022", 
+                "text": "I dedicated myself exclusively to the administration of four passenger transport vehicles. During the time I was there, I designed an Excel to control the number of kilometers of the cars, the correct payment to the drivers. In addition, I managed to assist the drivers with the problems that arose in order to find a solution."
+            },
+            {
+                "title":"LO DE CE", 
+                "rol": "Development of a web system", 
+                "time": "Sep 2023 - Feb 2024", 
+                "text": "I developed a stock control system for a clothing sales company. Through its use, workers can see different garments in inventory, quantities, various sizes and prices. Not only that, they can also check the updated sales list, which includes the entire process and data association. Additionally, a customer module was incorporated, which allows you to record your personal information, purchase history and accumulated debts. Another functionality required was the integration of a supplier module with its contact information, bank details and other utilities. I used React, node, mysql and deployed it in Vercel."
+            },
+            {
+                "title":"MI ODONTO", 
+                "rol": "Development of a web system", 
+                "time": "Oct 2023 - May 2024", 
+                "text": "I developed a patient registration system for a dentist, thus covering a critical need for information organization and registration of the different shifts and services provided. The patient module includes all the information inherent to them, highlighting the selection and purification by the social work. Through this innovative solution, the professional was able to view the status of the scheduled shifts at all times, along with the information about the shift and the associated patient."
+            }
+        ],
+        "proyects": [
+            {
+                "title":"Casino Roulette",
+                "description": "A small game made in React, where we simulate a perfectly functional casino roulette wheel. I used Bootstrap for the layout.",
+                "url" : "https://casino--roulette.vercel.app/",
+                "image": "/proyects/casino.png"
+            }
+        ]
     },
     
     
@@ -96,14 +137,6 @@
             "place": "Universidad Tecnológica Nacional",
             "title": "Tecnicatura Universitaria en programación",
             "time": "2022 - 2023 (Proyecto final a presentar)"
-        }
-    ],
-    "proyects": [
-        {
-            "title":"Casino Roulette",
-            "description": "Un pequeño juego hecho en React, donde simulamos una ruleta de casino perfectamente funcional. Utilicé Bootstrap para el layout.",
-            "url" : "https://casino--roulette.vercel.app/",
-            "image": "/proyects/casino.png"
         }
     ]
 }
