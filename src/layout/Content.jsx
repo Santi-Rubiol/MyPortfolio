@@ -24,29 +24,30 @@ const Content = () => {
     useEffect(() => {
         if (languaje === 'english') {
             setAboutMe(data.english.aboutMe)
-            setLaboralExperience(data.spanish.laboralExperience)
+            setLaboralExperience(data.english.laboralExperience)
             setEducation(data.education)
-            setProyects(data.proyects)
+            setProyects(data.english.proyects)
         } else {
             setAboutMe(data.spanish.aboutMe)
             setLaboralExperience(data.spanish.laboralExperience)
             setEducation(data.education)
-            setProyects(data.proyects)
+            setProyects(data.spanish.proyects)
         }
     }, [languaje])
 
 
-    const changeLanguaje = () => {
+    /* const changeLanguaje = () => {
         if (languaje === 'español') {
             setLanguaje('english')
         } else {
             setLanguaje('español')
         }
-    }
+    } */
 
     return <main className="main">
-        <div>
-            <button onClick={changeLanguaje}>INGLÉS</button>
+        <div className="btnsLanguaje">
+            <button onClick={() => setLanguaje('español')}><img src={"/flags/argentinaBandera.png"} alt={"Español"} /></button>
+            <button onClick={() => setLanguaje('english')}><img src={"/flags/englandFlag.png"} alt={"English"} /></button>
         </div>
 
         <div id="aboutMeSection" className="aboutMe">

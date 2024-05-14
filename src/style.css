@@ -62,6 +62,15 @@ li{
     list-style-type: none;
 }
 
+.btnsLanguaje{
+    > button{
+        margin: 5px;
+    }
+    img{
+        height: 30px;
+        width: 50px;
+    }
+}
 
 .skillsContent{
     display: flex;
