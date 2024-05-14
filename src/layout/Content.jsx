@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react"
 import Paragraph from "../components/Paragraph"
 import Experience from "../components/Experience"
 import Skill from "../components/Skill"
@@ -9,13 +10,46 @@ import { scrollToSection } from './SideBar'
 
 
 const Content = () => {
-    const aboutMe = data.aboutMe
-    const laboralExperience = data.laboralExperience
-    const skills = data.skills
-    const education = data.education
-    const proyects = data.proyects
+    const [languaje, setLanguaje] = useState('español')
+    const [aboutMe, setAboutMe] = useState('')
+    const [laboralExperience, setLaboralExperience] = useState([])
+    const [skills, setSkills] = useState(data.skills)
+    const [education, setEducation] = useState([])
+    const [proyects, setProyects] = useState([])
+
+    //let laboralExperience = data.laboralExperience
+
+    /* let education = data.education
+    let proyects = data.proyects */
+
+    useEffect(() => {
+        if (languaje === 'english') {
+            setAboutMe(data.english.aboutMe)
+            setLaboralExperience(data.spanish.laboralExperience)
+            setEducation(data.education)
+            setProyects(data.proyects)
+        } else {
+            setAboutMe(data.spanish.aboutMe)
+            setLaboralExperience(data.spanish.laboralExperience)
+            setEducation(data.education)
+            setProyects(data.proyects)
+        }
+    }, [languaje])
+
+
+    const changeLanguaje = () => {
+        if (languaje === 'español') {
+            setLanguaje('english')
+        } else {
+            setLanguaje('español')
+        }
+    }
 
     return <main className="main">
+        <div>
+            <button onClick={changeLanguaje}>INGLÉS</button>
+        </div>
+
         <div id="aboutMeSection" className="aboutMe">
             <h2>Sobre Mí</h2>
             <Paragraph text={aboutMe} />
