@@ -3,7 +3,6 @@ import Paragraph from "../components/Paragraph"
 import Experience from "../components/Experience"
 import Skill from "../components/Skill"
 import Education from "../components/Education"
-import Carrousel from "../components/Carrousel"
 import Proyect from "../components/Proyects"
 import data from '../../data.json'
 import { scrollToSection } from './SideBar'
